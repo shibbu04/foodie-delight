@@ -16,7 +16,7 @@ export default function Navbar() {
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
               <span className="text-2xl font-bold bg-gradient-to-r from-rose-500 to-rose-700 bg-clip-text text-transparent">
-                FoodieDelight
+                FoodieDlite
               </span>
             </Link>
           </div>
