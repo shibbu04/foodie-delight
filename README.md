@@ -1,6 +1,3 @@
-Here’s a redesigned, polished, and visually engaging README file for your project:  
-
-```markdown
 # 🍽️ **FoodieDelight** - *Food Delivery System*
 
 A modern, full-stack food delivery application built using the **MERN stack** (*MongoDB, Express.js, React.js, Node.js*).  
@@ -14,7 +11,7 @@ A modern, full-stack food delivery application built using the **MERN stack** (*
 - 🍕 **Menu Browsing**: Explore items by category  
 - 🛒 **Shopping Cart**: Add, remove, and manage items easily  
 - 📦 **Order Tracking**: Real-time updates on orders  
-- 🌓 **Theme Support**: Dark and light modes  
+- 🌇 **Theme Support**: Dark and light modes  
 - 📱 **Responsive Design**: Works seamlessly on all devices  
 - 🚀 **Real-time Updates**: Instant order status updates  
 
@@ -23,10 +20,10 @@ A modern, full-stack food delivery application built using the **MERN stack** (*
 ## 🛠️ **Tech Stack**  
 
 ### **Frontend**  
-- ⚛️ React.js (with Vite & TypeScript)  
+- ⛒️ React.js (with Vite & TypeScript)  
 - 🎨 Tailwind CSS  
-- 🧠 Zustand (State Management)  
-- 🧭 React Router  
+- 🧪 Zustand (State Management)  
+- 🧠 React Router  
 - 🌐 Axios  
 - ✨ Lucide React (Icons)  
 - 🍞 React Hot Toast  
@@ -35,24 +32,31 @@ A modern, full-stack food delivery application built using the **MERN stack** (*
 - 🟢 Node.js  
 - 🚀 Express.js  
 - 📊 MongoDB (with Mongoose ORM)  
-- 🔐 JWT Authentication  
+- 🔒 JWT Authentication  
 - 🔑 Bcrypt.js  
 - 🌍 CORS  
 
 ---
 
-## 🚀 **Installation Guide**  
+## 🚀 **Live Demo**
+
+- **Frontend Live URL**: [FoodieDelight Frontend](https://foodie-dlite.vercel.app/)
+- **Backend Live URL**: [FoodieDelight Backend](#)
+
+---
+
+## 🛠️ **Installation Guide**  
 
 ### **Prerequisites**  
 Ensure the following are installed:  
 - 📦 Node.js (v14 or higher)  
-- 🛢️ MongoDB  
+- 🚢 MongoDB  
 - 🛠️ Git  
 
 ### **Clone the Repository**  
 ```bash
-git clone https://github.com/shibbu04/foodie-delight.git
-cd foodie-delight
+git clone https://github.com/shibbu04/foodie-Dlite.git
+cd foodie-Dlite
 ```
 
 ### **Backend Setup**  
@@ -76,7 +80,7 @@ cd foodie-delight
    ```  
 5. Start the server:  
    ```bash
-   npm run dev
+   npm start
    ```  
 
 ### **Frontend Setup**  
@@ -125,6 +129,7 @@ foodie-delight/
 ├── frontend/
 │   ├── src/
 │   │   ├── components/
+│   │   ├── hooks/
 │   │   ├── pages/
 │   │   ├── stores/
 │   │   └── api/
@@ -153,30 +158,6 @@ foodie-delight/
 
 ---
 
-## 🤝 **Contributing**  
-
-1. Fork this repository  
-2. Create your feature branch:  
-   ```bash
-   git checkout -b feature/AmazingFeature
-   ```  
-3. Commit your changes:  
-   ```bash
-   git commit -m 'Add AmazingFeature'
-   ```  
-4. Push to the branch:  
-   ```bash
-   git push origin feature/AmazingFeature
-   ```  
-5. Open a Pull Request  
-
----
-
-## 📜 **License**  
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.  
-
----
-
 ## 🔗 **Connect With Me**  
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-%23121011.svg?style=for-the-badge&logo=About.me&logoColor=white)](https://shivam04.tech)  
@@ -186,4 +167,3 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 ---
 
 ### Made with ❤️ by **Shivam Singh**
-```  
