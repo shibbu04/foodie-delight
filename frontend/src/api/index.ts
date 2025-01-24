@@ -1,8 +1,13 @@
 import axios from 'axios';
 import { useAuth } from '../stores/authStore';
 
+const baseURL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+
 const api = axios.create({
-  baseURL: process.env.VITE_API_URL || 'http://localhost:5000/api',
+  baseURL,
+  headers: {
+    'Content-Type': 'application/json',
+  },
 });
 
 // Add token to requests
@@ -13,6 +18,17 @@ api.interceptors.request.use((config) => {
   }
   return config;
 });
+
+// Handle response errors
+api.interceptors.response.use(
+  (response) => response,
+  (error) => {
+    if (error.response?.status === 401) {
+      useAuth.getState().logout();
+    }
+    return Promise.reject(error);
+  }
+);
 
 export const login = async (username: string, password: string) => {
   const response = await api.post('/auth/login', { username, password });
