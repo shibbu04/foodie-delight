@@ -24,7 +24,7 @@ export default function Register() {
       const { token } = await register(username, password);
       setToken(token);
       toast.success('Successfully registered!');
-      navigate('/menu');
+      navigate('/login');
     } catch (error) {
       toast.error('Registration failed');
     } finally {
