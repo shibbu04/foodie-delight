@@ -1,8 +1,8 @@
-# 🍽️ **FoodieDelight** - *Food Delivery System*
+# 🍽️ **FoodieDlite** - *Food Delivery System*
 
 A modern, full-stack food delivery application built using the **MERN stack** (*MongoDB, Express.js, React.js, Node.js*).  
 
-![FoodieDelight Banner](https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80)
+![FoodieDlite Banner](https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80)
 
 ---
 
@@ -40,8 +40,8 @@ A modern, full-stack food delivery application built using the **MERN stack** (*
 
 ## 🚀 **Live Demo**
 
-- **Frontend Live URL**: [FoodieDelight Frontend](https://foodie-dlite.vercel.app/)
-- **Backend Live URL**: [FoodieDelight Backend](#)
+- **Frontend Live URL**: [FoodieDlite Frontend](https://foodiedlite.vercel.app/)
+- **Backend Live URL**: [FoodieDlite Backend](https://foodiedlite.onrender.com/)
 
 ---
 
@@ -55,8 +55,8 @@ Ensure the following are installed:
 
 ### **Clone the Repository**  
 ```bash
-git clone https://github.com/shibbu04/foodie-Dlite.git
-cd foodie-Dlite
+git clone https://github.com/shibbu04/foodieDlite.git
+cd foodieDlite
 ```
 
 ### **Backend Setup**  
@@ -118,7 +118,7 @@ cd foodie-Dlite
 ## 📁 **Project Structure**  
 
 ```plaintext
-foodie-delight/
+foodieDlite/
 ├── backend/
 │   ├── src/
 │   │   ├── models/
